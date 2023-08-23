@@ -8,7 +8,8 @@ import {
     Title,
     TitleHighlight,
     TextContent,
-    Column
+    Column,
+    Banner
 } from '../home/styles';
 
 
@@ -27,7 +28,7 @@ export const Home = () => {
                 </Link>
             </Column>
             <div>
-                <img src={banner} alt='Homem olhando tablet com informações de pessoas da área da tecnologia'/>
+                <Banner src={banner} alt='Homem olhando tablet com informações de pessoas da área da tecnologia'/>
             </div>
         </Container>
     </>)

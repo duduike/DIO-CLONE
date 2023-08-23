@@ -10,6 +10,12 @@ export const Container = styled.main`
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 1110px) {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 40px;
+    }
 `
 
 export const Column = styled.div`
@@ -28,6 +34,11 @@ export const Title = styled.h2`
     width: 24.25rem;
     margin-bottom: 20px;
     line-height: 44px;
+
+    @media (max-width: 485px) {
+        font-size: 25px;
+        width: 16.25rem;
+    }
 `
 
 export const Subtitle = styled.p`

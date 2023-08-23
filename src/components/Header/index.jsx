@@ -18,7 +18,9 @@ const Header = () => {
     <Wrapper>
         <Container>
             <Row>
-                <img src={logo} alt='Logo da dio' />
+                <Link to='/'>                
+                    <img src={logo} alt='Logo da dio' />    
+                </Link>
                 <BuscarInputContainer>
                     <Input placeholder='Buscar...'/>
                 </BuscarInputContainer>

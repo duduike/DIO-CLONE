@@ -44,6 +44,11 @@ export const BuscarInputContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 1024px) {
+        display:none;
+    }
+    
 `
 
 export const Menu = styled.a`
@@ -54,6 +59,10 @@ export const Menu = styled.a`
     color: #FFF;
     margin-right: 12px;
     text-decoration: none;
+
+    @media (max-width: 1024px) {
+        display:none;
+    }
 `
 
 export const MenuRight = styled.a`
@@ -64,6 +73,10 @@ export const MenuRight = styled.a`
     color: #FFF;
     margin-right: 12px;
     text-decoration: none;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 export const UserPicture = styled.img`

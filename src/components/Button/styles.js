@@ -12,6 +12,18 @@ export const ButtonContainer = styled.button`
     min-width: 120px;
     width: 100%;
 
+    @media (max-width: 425px) {
+        min-width: inherit;
+        font-size: .8rem;
+    }
+
+    @media (max-width: 360px) {
+        min-width: inherit;
+        font-size: .8rem;
+    }
+
+
+
     &:hover {
         opacity: .7;
         cursor: pointer;

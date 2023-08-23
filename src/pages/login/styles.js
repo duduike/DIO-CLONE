@@ -10,6 +10,12 @@ export const Container = styled.main`
     flex-direction: row;
     align-items: center;
     gap: 7.37rem;
+
+    @media (max-width: 1110px) {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 50px;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -38,6 +44,11 @@ export const Title = styled.h2`
     line-height: 44px;
     
     color: #FFF;
+
+    @media (max-width: 485px) {
+        font-size: 25px;
+        width: 16.25rem;
+    }
 `
 
 export const TitleLogin = styled.p`
@@ -47,6 +58,11 @@ export const TitleLogin = styled.p`
     font-size: 36px;
     margin-bottom: 20px;
     line-height: 44px;
+
+    @media (max-width: 485px) {
+        font-size: 25px;
+        width: 16.25rem;
+    }
 `
 
 export const SubtitleLogin = styled.p`
@@ -56,6 +72,11 @@ export const SubtitleLogin = styled.p`
     font-size: 18px;
     margin-bottom: 35px;
     line-height: 25px;
+
+    @media (max-width: 485px) {
+        font-size: 25px;
+        width: 16.25rem;
+    }
 `
 
 export const EsqueciText = styled.p`

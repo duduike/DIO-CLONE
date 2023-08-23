@@ -10,6 +10,13 @@ export const Container = styled.main`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1110px) {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 50px;
+    }
+
 `
 
 export const Title = styled.h2`
@@ -22,6 +29,10 @@ export const Title = styled.h2`
     line-height: 44px;
     
     color: #FFF;
+
+    @media (max-width: 485px) {
+        width: 100%;
+    }
 `
 
 export const TitleHighlight = styled.span`
@@ -38,9 +49,25 @@ export const TextContent = styled.p`
     line-height: 22px;
 
     color: #FFF;
+
+    @media (max-width: 485px) {
+        font-size: 25px;
+        width: 16.25rem;
+    }
 `
 
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
+    
+    @media (max-width: 360px) {
+        width: 100%;
+        gap: 2rem;
+    }
+
+`
+
+export const Banner = styled.img`
+    width: 100%;
+
 `
