@@ -26,7 +26,7 @@ const Header = () => {
                 <Menu>Global</Menu>
             </Row>
             <Row>
-                <MenuRight href='/home'>Home</MenuRight>
+                <MenuRight href='/'>Home</MenuRight>
                 <Link to='/login'>
                     <Button title="Entrar"/>
                 </Link>

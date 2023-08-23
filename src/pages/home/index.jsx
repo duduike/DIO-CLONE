@@ -12,7 +12,7 @@ import {
 } from '../home/styles';
 
 
-const Home = () => {
+export const Home = () => {
     return (<>
         <Header />
         <Container>
@@ -33,4 +33,3 @@ const Home = () => {
     </>)
 }
 
-export { Home }
