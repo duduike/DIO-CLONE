@@ -36,6 +36,10 @@ export const Title = styled.h2`
     margin-bottom: 20px;
     line-height: 44px;
 
+    ${({variant}) => variant !== "primary" && css `
+        color: #E4105D;
+    `}
+
     @media (max-width: 485px) {
         font-size: 25px;
         width: 16.25rem;

@@ -17,10 +17,10 @@ export const Cadastro = () => {
     <Header/>
     <Container>
         <Column>
-            <Title>A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.</Title>
+            <Title variant='primary'>A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.</Title>
         </Column>
         <Column>
-            <Title>Começe agora grátis</Title>
+            <Title variant='secondary'>Começe agora grátis</Title>
             <Subtitle>Crie sua conta e make the change._</Subtitle>
             <Wrapper>                
                 <form>

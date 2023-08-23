@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 export const Container = styled.main`
     width: 100%;
@@ -59,6 +59,7 @@ export const TitleLogin = styled.p`
     font-size: 36px;
     margin-bottom: 20px;
     line-height: 44px;
+    color: #E4105D;
 
     @media (max-width: 485px) {
         font-size: 25px;
